@@ -12,3 +12,13 @@
 10) enter access token
 11) select bootcamp session
 12) select project install
+
+## How to test
+1) Terminal, type os test in term
+2) select sess
+3) select project
+## First website project
+1) Complete up to #10
+## How to push work
+1) in terminal : git add -A
+2) 
