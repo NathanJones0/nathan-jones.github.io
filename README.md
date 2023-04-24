@@ -18,7 +18,7 @@
 1) Complete up to #10
 ## How to push work
 1) in terminal : git add -A
-2) commit -m "explanation of work"
+2) git commit -m "explanation of work"
 3) type : git push
 
 ## portfolio, only do 1-5

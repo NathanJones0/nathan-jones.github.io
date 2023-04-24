@@ -2,6 +2,8 @@
 
 'use strict';
 
+const { join } = require("../stringy");
+
 /**
  * 1: reverseString()
  *
@@ -21,10 +23,14 @@
 
 function reverseString(input) {
     // YOUR CODE GOES BELOW HERE //
-    
-    
-    
-    
+    //create a string that will hold the new string
+    var newString = '';
+    // create a for loop
+    for (let i = input.length - 1; i >= 0; i--){
+      newString += input[i];
+    }
+    //return the reversed string
+    return newString;
     // YOUR CODE GOES ABOVE HERE //
 }
 

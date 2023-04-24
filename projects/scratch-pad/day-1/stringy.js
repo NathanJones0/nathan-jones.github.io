@@ -60,7 +60,7 @@ function toUpperCase(string) {
 function toDashCase(string) {
     // YOUR CODE BELOW HERE //
     // make the string return with dashes between each word
-    return string.replace(' ', '-')
+   
     // YOUR CODE ABOVE HERE //
 }
 
@@ -174,8 +174,7 @@ function longest(stringOne, stringTwo) {
  */
 function sortAscending(stringOne, stringTwo) {
     // YOUR CODE BELOW HERE //
-
-
+    
 
     // YOUR CODE ABOVE HERE //
 }
