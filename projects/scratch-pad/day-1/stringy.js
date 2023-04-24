@@ -60,7 +60,7 @@ function toUpperCase(string) {
 function toDashCase(string) {
     // YOUR CODE BELOW HERE //
     // make the string return with dashes between each word
-   
+    return string.split(' ').join('-').toLowerCase();
     // YOUR CODE ABOVE HERE //
 }
 
@@ -78,15 +78,7 @@ function toDashCase(string) {
  */
 function beginsWith(string, char) {
     // YOUR CODE BELOW HERE //
-    //if the string begins with char return true
-    if (string.length(0) === char){
-        return true;
-        //else, return false
-    } else {
-        return false;
-    }
-    
-
+   
     // YOUR CODE ABOVE HERE //
 }
 
@@ -104,8 +96,6 @@ function beginsWith(string, char) {
  */
 function endsWith(string, char) {
     // YOUR CODE BELOW HERE //
-
-
 
     // YOUR CODE ABOVE HERE //
 }
@@ -174,8 +164,7 @@ function longest(stringOne, stringTwo) {
  */
 function sortAscending(stringOne, stringTwo) {
     // YOUR CODE BELOW HERE //
-    
-
+    return stringOne.compareTo(stringTwo)
     // YOUR CODE ABOVE HERE //
 }
 
