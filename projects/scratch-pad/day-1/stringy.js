@@ -78,7 +78,11 @@ function toDashCase(string) {
  */
 function beginsWith(string, char) {
     // YOUR CODE BELOW HERE //
-   
+   if (string[0].toLowerCase() === char.toLowerCase()){
+    return true;
+   } else {
+    return false;
+   }
     // YOUR CODE ABOVE HERE //
 }
 
@@ -96,7 +100,11 @@ function beginsWith(string, char) {
  */
 function endsWith(string, char) {
     // YOUR CODE BELOW HERE //
-
+    if (string.toLowerCase().length - 1 === char.toLowerCase()){
+        return true;
+    } else {
+        return false;
+    }
     // YOUR CODE ABOVE HERE //
 }
 
@@ -164,7 +172,8 @@ function longest(stringOne, stringTwo) {
  */
 function sortAscending(stringOne, stringTwo) {
     // YOUR CODE BELOW HERE //
-    return stringOne.compareTo(stringTwo)
+    if ()
+     
     // YOUR CODE ABOVE HERE //
 }
 
