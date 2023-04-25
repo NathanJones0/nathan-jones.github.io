@@ -100,7 +100,7 @@ function beginsWith(string, char) {
  */
 function endsWith(string, char) {
     // YOUR CODE BELOW HERE //
-    if (string.toLowerCase().length - 1 === char.toLowerCase()){
+    if (string.slice(-1).toLowerCase() === char.toLowerCase()){
         return true;
     } else {
         return false;
@@ -172,7 +172,8 @@ function longest(stringOne, stringTwo) {
  */
 function sortAscending(stringOne, stringTwo) {
     // YOUR CODE BELOW HERE //
-    if ()
+  var compareValue = stringTwo.localeCompare(stringOne);
+  return compareValue;
      
     // YOUR CODE ABOVE HERE //
 }
@@ -187,8 +188,11 @@ function sortAscending(stringOne, stringTwo) {
  */
 function sortDescending(stringOne, stringTwo) {
     // YOUR CODE BELOW HERE //
-
-
+//Create a var that compares stringOne and stringTwo using localeCompare
+    var compareValue = stringOne.localeCompare(stringTwo);
+    //return the var 
+    return compareValue;
+       
 
 
     // YOUR CODE ABOVE HERE //
