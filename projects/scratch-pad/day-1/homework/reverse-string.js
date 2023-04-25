@@ -23,14 +23,14 @@ const { join } = require("../stringy");
 
 function reverseString(input) {
     // YOUR CODE GOES BELOW HERE //
-    //create a string that will hold the new string
-    var newString = '';
-    // create a for loop
-    for (let i = input.length - 1; i >= 0; i--){
-      newString += input[i];
-    }
-    //return the reversed string
-    return newString;
+  // create an empty string that will hold
+  let newString = '';
+  // using for loop, loop through the array
+ for (i = input.length - 1; i >= 0; i--){
+  newString += input[i];
+ }
+  // return the new variable 
+  return newString;
     // YOUR CODE GOES ABOVE HERE //
 }
 
