@@ -12,7 +12,22 @@
 */
 function fizzBuzz() {
     // YOUR CODE GOES BELOW HERE //
-
+    // create a for loop to print numbers 1-100 to  the console
+  for (var i = 1; i <= 100; i++)
+  console.log(i);
+  // create an if statement, if i has a mupltiple of 3 and 5 print 'FizzBuzz'
+  if ((i % 3 == 0) && (i % 5 == 0)){
+    console.log('FizzBuzz')
+    // create an else if statement, if i is a multiple of 3, print Fizz
+  } else if (i % 3 == 0){
+    console.log('Fizz')
+    // create another else if statement, if i is a multiple of 5, print Buzz
+  } else if (i % 5 == 0){
+    console.log('Buzz')
+    // create an else statement that will print every other number normally
+  }  else{
+    console.log(i);
+  }
 
 
     // YOUR CODE GOES ABOVE HERE //
